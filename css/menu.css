@@ -54,10 +54,7 @@ header img {
     flex-direction: column;
     gap: 20px;
 }
-.menu div ul li {
-    width: 95%;
-    background-color: white;
-}
+
 
 
 
@@ -78,8 +75,18 @@ header img {
     font-size: 25px;
 }
 .sous-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sous-menu ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.sous-menu li {
     width: 95%;
-    padding: 25px;
+    padding: 20px;
     margin: auto;
     box-sizing: border-box;
     border-radius: 20px;
