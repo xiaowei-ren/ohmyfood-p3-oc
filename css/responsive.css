@@ -1,0 +1,91 @@
+/*Smartphone et tablette*/
+@media only screen and (max-width:992px) {
+    
+    .logo img {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 5px;
+    }
+
+    
+    .restaurants h2 {
+        padding-top: 30px;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    }
+
+    .restaurants ul {
+        flex-direction: column;
+    }
+    .card a {
+        width: 100%;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        position: relative;
+    }
+    .card-img-1 {
+        width: 100%;
+        height: 100%;
+    }
+    .card-img-1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        max-height: 243px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .card-img-2 {
+        width: 20%;
+        height: 10%;
+        text-align: center;
+        font-size: 14px;
+        color: #30a88a;
+        background-color: #99E2D0;
+        position: absolute;
+        top: 7%;
+        right: 4%;
+    }
+    .card-excerpt {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    .card-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .card-text h4 {
+        font-size: 18px;
+    }
+    .card-text p {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    .card-icon {
+        font-size: 22px;
+        margin: auto 0;
+        position: relative;
+    }
+    .card-icon-gris::before {
+        display: none;
+        font-family: 'FontAwesome';
+        content: '\f004';
+        color: #9356DC;
+        position: absolute;
+        top: 0;
+        right: 16%;
+    }
+    .card-icon-gris:hover::before {
+        display: block;
+    }
+
+
+}
