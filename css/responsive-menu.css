@@ -1,0 +1,50 @@
+@media only screen and (max-width:992px) {
+    header {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    header a i {
+        margin-left: -70px;
+        font-size: 20px;
+    }
+
+    header img {
+        width: 46%;
+    }
+
+    .menu {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu-title {
+        width: 95%;
+        padding: 25px 5px;
+    }
+    .sous-menu {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .menu-title h1 {
+        font-size: 30px;
+    }
+
+    .menu-title i {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .sous-menu ul {
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    button {
+        width: 60%;
+        padding: 15px 0;
+        margin: 30px auto;
+        margin-bottom: 65px;    
+    }
+}
