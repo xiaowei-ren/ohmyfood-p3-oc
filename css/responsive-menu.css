@@ -13,6 +13,9 @@
         width: 46%;
     }
 
+    #menu {
+        margin-top: -90px;
+    }
     .menu {
         width: 100%;
         flex-direction: column;

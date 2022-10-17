@@ -52,7 +52,7 @@ main {
     flex-direction: column;
     gap: 10px;
     position: relative;
-    margin-top: -90px;
+    margin-top: -200px;
 }
 
 .menu {
@@ -144,10 +144,20 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 20px 2s;
+    font-size: 20px;
     animation-fill-mode: forwards;
     overflow: hidden;
 }
+
+@keyframes icon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
 @keyframes hd {
     from {
         width: 0;
@@ -158,6 +168,9 @@ main {
 }
 .sous-menu li:hover .sous-menu-icon {
     animation: hd .5s;
+}
+.sous-menu li:hover .sous-menu-icon i {
+    animation: icon .5s;
 }
 button {
     width: 45%;

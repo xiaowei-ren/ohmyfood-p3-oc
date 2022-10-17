@@ -1,5 +1,5 @@
+/* Desktop */
 
-/* Commun */
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,6 @@ header {
     background-color: white;
 }
 
-/* Desktop */
 .location {
     width: 100%;
     box-sizing: border-box;
@@ -94,14 +93,13 @@ header {
     margin: auto;
     padding-bottom: 30px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-around;
 }
 
 .nav ul li {
-    width: 83%;
-    padding: 20px;
-    margin: auto;
+    width: 26%;
+    padding: 20px 10px;
+    margin: auto 20px;
     box-sizing: border-box;
     border-radius: 20px;
     box-shadow: 2px 2px 7px #e1dddd;
@@ -149,8 +147,9 @@ header {
     background-color: #F2F2F2;
 }
 .restaurants ul {
-    width: 100%;
+    width: 98%;
     display: flex;
+    margin: 0 auto;
     gap: 15px;
 }
 .restaurants ul li {
@@ -232,9 +231,25 @@ header {
     margin: auto 0;
     position: relative;
 }
-.card-icon:hover i.fa-regular {
-    font-weight: 900;
-    color: #9356DC
+
+.card-icon:hover .card-icon i {
+    animation: heart 1s;
+}
+
+@keyframes heart {
+    0% {
+        background: linear-gradient(bottom, #FF79DA, #9356DC 0%, white);
+        -webkit-background-clip: text;
+    }
+    50% {
+        background: linear-gradient(bottom, #FF79DA, #9356DC 50%, white);
+        -webkit-background-clip: text;
+    }
+    100% {
+        background: linear-gradient(bottom, #FF79DA, #9356DC 100%, white);
+        -webkit-background-clip: text;
+    }
+
 }
 
 footer {
