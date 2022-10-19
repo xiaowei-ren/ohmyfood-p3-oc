@@ -232,24 +232,77 @@ header {
     position: relative;
 }
 
-.card-icon:hover .card-icon i {
-    animation: heart 1s;
+.card-icon:hover i {
+    animation: heart 1s 0s forwards;
 }
 
 @keyframes heart {
     0% {
-        background: linear-gradient(bottom, #FF79DA, #9356DC 0%, white);
+        background: linear-gradient(0deg, #FF79DA, #9356DC 0%, white 0%);
         -webkit-background-clip: text;
-    }
-    50% {
-        background: linear-gradient(bottom, #FF79DA, #9356DC 50%, white);
+        color: transparent;
+        font-weight: bold;
+      }
+      10% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 10%, white 10%);
         -webkit-background-clip: text;
-    }
-    100% {
-        background: linear-gradient(bottom, #FF79DA, #9356DC 100%, white);
+        color: transparent;
+        font-weight: bold;
+      }
+      20% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 20%, white 20%);
         -webkit-background-clip: text;
-    }
-
+        color: transparent;
+        font-weight: bold;
+      }
+      30% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 30%, white 30%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      40% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 40%, white 40%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      50% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 50%, white 50%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      60% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 60%, white 60%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      70% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 70%, white 70%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      80% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 80%, white 80%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      90% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 90%, white 90%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
+      100% {
+        background: linear-gradient(0deg, #FF79DA, #9356DC 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: bold;
+      }
 }
 
 footer {
