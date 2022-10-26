@@ -1,3 +1,5 @@
+/*Smartphone et tablette*/
+
 @media only screen and (max-width:992px) {
     header {
         padding-top: 30px;
@@ -28,6 +30,9 @@
         width: 100%;
         gap: 10px;
     }
+    .sous-menu-price {
+        padding-bottom: 15px;
+    }
 
     .menu-title h1 {
         font-size: 30px;
@@ -35,7 +40,7 @@
 
     .menu-title i {
         margin-top: 10px;
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .sous-menu ul {

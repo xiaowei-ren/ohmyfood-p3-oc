@@ -1,3 +1,4 @@
+/* Desktop */
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +31,7 @@ header a i {
     font-size: 25px;
     margin-left: -300px;
 }
+
 header img {
     width: 40%;
 }
@@ -77,7 +79,7 @@ main {
     font-size: 27px;
     position: relative;
 }
-.menu-title:hover i {
+.menu-title i:hover {
     animation: heart 1s 0s forwards;
 }
 @keyframes heart {
@@ -210,7 +212,8 @@ main {
 }
 .sous-menu-text {
     padding: 15px;
-    width: 70%;
+    flex-grow: 1;
+    overflow: hidden;
 }
 
 .sous-menu-text h4 {
@@ -227,6 +230,10 @@ main {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+}
+
+.sous-menu-check {
+    display: flex;
 }
 .sous-menu-price {
     display: flex;
@@ -255,25 +262,26 @@ main {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
     }
 }
 
-@keyframes hd {
+@keyframes vert {
     from {
         width: 0;
     }
     to {
-        width: 18%;
+        width: 45px;
     }
 }
 
 .sous-menu li:hover .sous-menu-icon {
-    animation: hd .5s;
+    animation: vert .6s forwards;
 }
 .sous-menu li:hover .sous-menu-icon i {
-    animation: icon .5s;
+    animation: icon .6s forwards;
 }
+
 button {
     width: 45%;
     padding: 20px 0;
