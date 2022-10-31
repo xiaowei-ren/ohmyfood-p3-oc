@@ -163,7 +163,7 @@ header {
 .nav ul li:hover {
     background-color: #d4c0ed;
 }
-.nav ul li:hover .nav-item-icon-3 {
+.nav ul li:hover .nav-item-icon {
     color: #9356DC;
 }
 
@@ -185,8 +185,7 @@ header {
     color: white;
     text-align: center;
 }
-.nav-item-icon,
-.nav-item-icon-3 {
+.nav-item-icon {
     font-size: 20px;
     color: gray;
 }
